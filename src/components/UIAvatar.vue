@@ -69,15 +69,6 @@ export default {
 
       return this.label.substring(0, 2).toUpperCase();
     },
-    statusStyles() {
-      if (!this.status) {
-        return {}
-      }
-
-      return {
-        'background-color': STATUSES[this.status],
-      };
-    },
   },
 }
 </script>
